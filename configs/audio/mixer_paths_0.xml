@@ -217,7 +217,7 @@
     <path name="earpiece">
         <path name="verb-normal" />
         <ctl name="RCV Switch" value="1" />
-        <ctl name="EPOUT Digital Volume" value="108" />
+        <ctl name="EPOUT Digital Volume" value="128" />
         <ctl name="EPOUT Input 1 Volume" value="32" />
         <ctl name="EPOUT Input 2 Volume" value="32" />
     </path>
@@ -225,9 +225,9 @@
     <path name="speaker">
         <path name="verb-normal" />
         <ctl name="SPK Switch" value="1" />
-        <ctl name="Speaker Digital Volume" value="122" />
-        <ctl name="SPKOUTL Input 1 Volume" value="31" />
-        <ctl name="SPKOUTR Input 1 Volume" value="30" />
+        <ctl name="Speaker Digital Volume" value="140" />
+        <ctl name="SPKOUTL Input 1 Volume" value="32" />
+        <ctl name="SPKOUTR Input 1 Volume" value="32" />
     </path>
 
     <path name="headphones">
@@ -236,7 +236,7 @@
         <ctl name="Output Compensation Switch" value="1" />
         <ctl name="HP Switch" value="1" />
         <ctl name="Noise Gate Switch" value="0" />
-        <ctl name="HPOUT1 Digital Volume" value="115" />
+        <ctl name="HPOUT1 Digital Volume" value="128" />
         <ctl name="HPOUT1L Input 1 Volume" value="32" />
         <ctl name="HPOUT1R Input 1 Volume" value="32" />
     </path>
@@ -289,7 +289,7 @@
     <path name="voice-headphones">
         <path name="headphones" />
         <ctl name="Noise Gate Switch" value="0" />
-        <ctl name="HPOUT1 Digital Volume" value="116" />
+        <ctl name="HPOUT1 Digital Volume" value="128" />
         <ctl name="HPOUT1L Input 1 Volume" value="32" />
         <ctl name="HPOUT1R Input 1 Volume" value="32" />
         <ctl name="HPOUT1L Input 2 Volume" value="32" />

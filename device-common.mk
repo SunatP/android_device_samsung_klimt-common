@@ -40,10 +40,10 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1600
 
 # Fingerprint
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service \
-    fingerprint.universal5420 \
-    validityService
+# PRODUCT_PACKAGES += \
+#     android.hardware.biometrics.fingerprint@2.1-service \
+#     fingerprint.universal5420 \
+#     validityService
 
 # Key-layout
 PRODUCT_COPY_FILES += \
@@ -55,8 +55,8 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/keylayout/sec_touchscreen.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/sec_touchscreen.kl
 
 # Permissions
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
+# PRODUCT_COPY_FILES += \
+#     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
 
 # Properties
 -include $(LOCAL_PATH)/system_prop.mk

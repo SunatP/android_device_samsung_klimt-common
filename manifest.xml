@@ -20,7 +20,7 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl">
+    <hal format="hidl" optional="true">
         <name>vendor.lineage.touch</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -29,7 +29,7 @@
             <instance>default</instance>
         </interface>
         <interface>
-            <name>IKeyDisabler</name>
+            <name>IStylusMode</name>
             <instance>default</instance>
         </interface>
     </hal>
